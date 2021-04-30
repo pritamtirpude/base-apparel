@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot__base_apparel.png)
+![](./screenshot_base_apparel.png)
 
 ### Links
 
-- Solution URL: [Base Apparel Challenge Solution](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd/hub/html-css-sass-flexbox-fEKRGRHLV)
-- Live Site URL: [Live Site](https://fylo-drk-theme.netlify.app/)
+- Solution URL: [Base Apparel Challenge Solution](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0/hub/html-css-sass-flexbox-itX91R8lf)
+- Live Site URL: [Live Site](https://base-apparel-site.netlify.app/)
 
 ## My process
 
