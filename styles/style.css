@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+main {
+  padding: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.apparel-container {
+  width: 115%;
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: url("../images/bg-pattern-desktop.svg");
+  background-size: contain;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.apparel-container .left-content {
+  padding: 10rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.apparel-container .left-content .heading {
+  margin-top: 10rem;
+}
+
+.apparel-container .left-content .heading h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.apparel-container .left-content .heading h1 .upper-text {
+  font-weight: lighter;
+  color: #ce9797;
+}
+
+.apparel-container .left-content .heading p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: #ce9797;
+}
+
+.apparel-container .left-content .sign-up {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.apparel-container .left-content .sign-up input {
+  width: 80%;
+  padding: 2rem 2rem;
+  border-radius: 3rem;
+  border: 1px solid #ce9797;
+  outline: none;
+  font-family: "Josefin Sans", sans-serif;
+  color: #413a3a;
+}
+
+.apparel-container .left-content .sign-up button {
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  -webkit-box-shadow: 0px 10px 10px rgba(249, 98, 98, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 10px rgba(249, 98, 98, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  cursor: pointer;
+  width: 120px;
+  top: -5%;
+  left: 70%;
+  padding: 2rem 2rem;
+  border: none;
+  border-radius: 3rem;
+}
+
+.apparel-container .left-content .sign-up button:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+}
+
+.apparel-container .left-content .error-text {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+
+.apparel-container .right-content .girl-image img {
+  content: url("../images/hero-desktop.jpg");
+}
+
+.attribution {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #f96262;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    padding: 0rem;
+  }
+  .apparel-container {
+    margin-top: 10rem;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    background: #fdf2f2;
+  }
+  .apparel-container .left-content br {
+    display: none;
+  }
+  .apparel-container .left-content .logo {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    margin-top: 1rem;
+  }
+  .apparel-container .left-content .heading {
+    text-align: center;
+  }
+  .apparel-container .left-content .sign-up {
+    text-align: center;
+  }
+  .apparel-container .left-content .sign-up button {
+    width: 90px;
+  }
+  .apparel-container .right-content .girl-image img {
+    content: url("../images/hero-mobile.jpg");
+    width: 100vw;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1300px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    padding: 0rem;
+  }
+  .apparel-container {
+    margin-top: 10rem;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    background: #fdf2f2;
+  }
+  .apparel-container .left-content br {
+    display: none;
+  }
+  .apparel-container .left-content .logo {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    margin-top: 1rem;
+  }
+  .apparel-container .left-content .heading {
+    text-align: center;
+  }
+  .apparel-container .left-content .sign-up {
+    text-align: center;
+  }
+  .apparel-container .left-content .sign-up button {
+    width: 90px;
+    left: 85%;
+  }
+  .apparel-container .right-content .girl-image img {
+    content: url("../images/hero-mobile.jpg");
+    width: 100vw;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
